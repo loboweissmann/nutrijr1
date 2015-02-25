@@ -1,9 +1,13 @@
 package nutrijr
 
-class Pessoa {
+abstract class Pessoa {
 	
 	String nome
 	String observacoes
+
+	String toString() {
+		this.nome
+	}
 
 	static belongsTo = [
 		municipio:Municipio

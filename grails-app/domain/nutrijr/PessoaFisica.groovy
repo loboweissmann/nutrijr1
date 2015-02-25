@@ -6,6 +6,10 @@ class PessoaFisica extends Pessoa {
 	String rg
 	String sobrenome
 
+	String toString() {
+		"Fisica - ${this.nome}"
+	}
+
 	static constraints = {
 		cpf unique:true, blank:false, maxSize:32
 		rg  unique:true, blank:false, maxSize:32
