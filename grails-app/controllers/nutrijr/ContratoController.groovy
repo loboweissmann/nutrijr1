@@ -2,5 +2,5 @@ package nutrijr
 
 class ContratoController {
 
-    static scaffold = true
+    static scaffold = true 
 }
